@@ -1,0 +1,57 @@
+{
+  "_from": "@types/tabtab",
+  "_id": "@types/tabtab@3.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-zgojZOG7Y78T9fGJcreB7jpXscUvZuRQjsGEjanNwNXtSNz9u+uFt4dwEIAtoZfe7bUuppCISaNDknBGzOtE/w==",
+  "_location": "/@types/tabtab",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@types/tabtab",
+    "name": "@types/tabtab",
+    "escapedName": "@types%2ftabtab",
+    "scope": "@types",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/@types/tabtab/-/tabtab-3.0.0.tgz",
+  "_shasum": "c07e35179b4a9e21988a49b9cf1d3e37909d28cf",
+  "_spec": "@types/tabtab",
+  "_where": "/home/int/coding/cli",
+  "bugs": {
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Vojtěch Habarta",
+      "url": "https://github.com/vojtechhabarta"
+    },
+    {
+      "name": "Kamontat Chantrachirathumrong",
+      "url": "https://github.com/kamontat"
+    }
+  ],
+  "dependencies": {},
+  "deprecated": false,
+  "description": "TypeScript definitions for tabtab",
+  "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped#readme",
+  "license": "MIT",
+  "main": "",
+  "name": "@types/tabtab",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+  },
+  "scripts": {},
+  "typeScriptVersion": "2.0",
+  "types": "index",
+  "typesPublisherContentHash": "0b28f81edc5400cb2fc5ab645862815e1ceb8c23158e39d73406326be67c5ad1",
+  "version": "3.0.0"
+}
