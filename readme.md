@@ -1,3 +1,10 @@
+# Fork description
+
+It's a fork of repo https://github.com/mklabs/tabtab with these changes:
+- there were added new install option `completeCmd` which allows to specify command to be used in completion calls
+- typings were added from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/tabtab and were slightly changed
+- code writen in https://github.com/mklabs/tabtab/pull/49 by @sorleone was used
+
 # tabtab
 
 [![Build Status](https://travis-ci.org/mklabs/tabtab.svg?branch=3.0.0)](https://travis-ci.org/mklabs/tabtab)
