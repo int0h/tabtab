@@ -5,31 +5,20 @@
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.0
 
-/**
- * Install option
- *
- * @param name is a name of the cli command
- * @param completer Somethings, you want to complete another program that's where the `completer` option might come handy.
- */
+/// <reference types="node" />
+
 export type InstallOption = {
+    /** name is a name of the cli command */
     name: string;
+    /** Somethings, you want to complete another program that's where the `completer` option might come handy. */
     completer: string;
+    /** the first argument to be passed to a completer by shell script. The default value is `completion`. */
+    completeCmd?: string;
 };
 
-/**
- * Uninstall option
- *
- * @param name is a name of the cli command
- */
 export type UninstallOption = {
+    /** name is a name of the cli command */
     name: string;
-};
-
-/**
- * This type represent object (Json object)
- */
-export type Json = {
-    [key: string]: string;
 };
 
 /**
@@ -123,7 +112,7 @@ export function uninstall(option: UninstallOption): Promise<void>;
  * @example
  * const env = tabtab.parseEnv(process.env);
  */
-export function parseEnv(env: Json): TabtabEnv;
+export function parseEnv(env: typeof process.env): TabtabEnv;
 
 /**
  * Helper to normalize String and Objects when logging out.
